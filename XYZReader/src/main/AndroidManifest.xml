@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.xyzreader"
     android:versionCode="1"
     android:versionName="1.0">
@@ -26,7 +27,8 @@
         <activity
             android:name=".ui.ArticleDetailActivity"
             android:parentActivityName=".ui.ArticleListActivity">
-            <intent-filter>
+            <intent-filter android:scheme="http"
+                tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
@@ -43,6 +45,11 @@
             android:authorities="com.example.xyzreader"
             android:exported="false" />
 
+<!--    If you are using com.google.android.gms:play-services-maps:16.0.0 or below and your app is targeting API level 28 (Android 9.0) or above,-->
+<!--    you must include the following declaration within the <application> element of AndroidManifest.xml.-->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
     </application>
 
 </manifest>
