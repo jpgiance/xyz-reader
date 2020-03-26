@@ -18,8 +18,12 @@
 <resources>
     <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
+    <color name="theme_primary">#FD5621</color>
+    <color name="theme_primary_light">#FF9C6B</color>
+    <color name="theme_primary_dark">#33312E</color>
+    <color name="theme_accent">#68F2FF</color>
+    <color name="theme_background">@android:color/black</color>
+    <color name="theme_text_color_white">#FDFDFD</color>
+    <color name="theme_text_color_whiteGrey">#C3C3C3</color>
+    <color name="theme_text_color_black">@android:color/black</color>
 </resources>
