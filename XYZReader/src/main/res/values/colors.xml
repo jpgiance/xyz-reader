@@ -24,6 +24,6 @@
     <color name="theme_accent">#68F2FF</color>
     <color name="theme_background">@android:color/black</color>
     <color name="theme_text_color_white">#FDFDFD</color>
-    <color name="theme_text_color_whiteGrey">#C3C3C3</color>
+    <color name="theme_text_color_whiteGrey">#a6a6a6</color>
     <color name="theme_text_color_black">@android:color/black</color>
 </resources>

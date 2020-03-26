@@ -8,9 +8,12 @@ import android.content.OperationApplicationException;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.RemoteException;
 import android.text.format.Time;
 import android.util.Log;
+
+import androidx.annotation.RequiresApi;
 
 import com.example.xyzreader.remote.RemoteEndpointUtil;
 
@@ -32,6 +35,7 @@ public class UpdaterService extends IntentService {
         super(TAG);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onHandleIntent(Intent intent) {
         Time time = new Time();
