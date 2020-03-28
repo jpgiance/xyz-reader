@@ -8,6 +8,9 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+    <dimen name="detail_image_width">400dp</dimen>
+    <dimen name="detail_image_height">400dp</dimen>
+
     <!-- list -->
     <dimen name="thumbnail_width">180dp</dimen>
     <dimen name="thumbnail_height">138dp</dimen>
