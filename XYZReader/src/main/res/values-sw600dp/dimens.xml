@@ -6,7 +6,7 @@
     <dimen name="fab_margin">24dp</dimen>
 
     <dimen name="detail_image_width">300dp</dimen>
-    <dimen name="detail_image_height">300dp</dimen>
+    <dimen name="detail_image_height">500dp</dimen>
 
     <!-- list -->
     <dimen name="thumbnail_width">300dp</dimen>

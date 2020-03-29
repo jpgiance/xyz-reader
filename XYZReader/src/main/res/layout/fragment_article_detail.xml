@@ -64,6 +64,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/detail_image_height"
                         android:layout_gravity="center|bottom"
+                        android:scaleType="centerCrop"
                         android:paddingBottom="@dimen/detail_metabar_vert_padding"/>
 
                     <TextView
